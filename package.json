@@ -1,0 +1,22 @@
+{
+  "name": "azpoc",
+  "version": "1.0.0",
+  "description": "Azure POC Node.js app to test SQL & Storage connectivity",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "azure",
+    "nodejs",
+    "sql",
+    "storage"
+  ],
+  "author": "Goutami",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.0",
+    "mssql": "^9.1.1",
+    "@azure/storage-blob": "^12.16.0"
+  }
+}
